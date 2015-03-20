@@ -1,7 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml" %>
-<%@ taglib uri="http://www.subshell.com/sophora/jsp" prefix="sophora" %>
-<%@ page import="com.subshell.sophora.api.content.value.BinaryData" %>
 
 <%-- Binärdaten der Original-Untertitel-XML holen --%>
 <c:set var="bytes" value="${current.binarydata.binaryData.bytes}" />
